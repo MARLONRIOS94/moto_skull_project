@@ -1,14 +1,16 @@
 * {
-   background-color:#607D8B;
+   background-color:#00FFFF;
 }
-nav details .category1{
+
+.details1 .category1{
     color: #ff0000;
 }
 
-nav details .ol2 .li2  {
+.details2 .category2{
     color:#0000FF ;
 }
 
-.li3 a{
-    color: #FFEB3B
+.details2 a{
+    color: #CC00CC
+
 }
