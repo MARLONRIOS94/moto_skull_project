@@ -19,20 +19,20 @@
    background-color:#00FFFF;
 } */
 
-.details1 .category1{
+nav .details1 .category1{
     color: var(--colorrojo);
     font-family: skygraze;
     
 }
 
-.details2 .category2{
+nav .details2 .category2{
     color:var(--colorazul);
     font-family: skygraze;
     
 }
 
-.details2 a{
-    color: var(--coloraverde);
+nav .details2 a{
+    color: var(--colorvino);
     font-family:  'Cabin', sans-serif;
 
 }
