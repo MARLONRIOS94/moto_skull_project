@@ -1,13 +1,31 @@
-* {
-   background-color:#00FFFF;
+@font-face {
+    font-family: mifuente;
+    src: url("../font/Skygraze.otf");
+    font-style: normal;
+    font-weight: normal;
 }
+
+
+
+:root {
+    font-family: mifuente;
+}
+
+
+
+
+/* * {
+   background-color:#00FFFF;
+} */
 
 .details1 .category1{
     color: #ff0000;
+    font-family:  'Cabin', sans-serif;
 }
 
 .details2 .category2{
     color:#0000FF ;
+    ;
 }
 
 .details2 a{
