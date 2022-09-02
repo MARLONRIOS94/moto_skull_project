@@ -1,5 +1,5 @@
 @font-face {
-    font-family: mifuente;
+    font-family: skygraze;
     src: url("../font/Skygraze.otf");
     font-style: normal;
     font-weight: normal;
@@ -8,10 +8,11 @@
 
 
 :root {
-    font-family: mifuente;
+    --colorrojo:#ff0000;
+    --colorazul:#0000FF;
+    --colorvino:#960018;
+    font-family: skygraze;
 }
-
-
 
 
 /* * {
@@ -19,16 +20,19 @@
 } */
 
 .details1 .category1{
-    color: #ff0000;
-    font-family:  'Cabin', sans-serif;
+    color: var(--colorrojo);
+    font-family: skygraze;
+    
 }
 
 .details2 .category2{
-    color:#0000FF ;
-    ;
+    color:var(--colorazul);
+    font-family: skygraze;
+    
 }
 
 .details2 a{
-    color: #CC00CC
+    color: var(--coloraverde);
+    font-family:  'Cabin', sans-serif;
 
 }
