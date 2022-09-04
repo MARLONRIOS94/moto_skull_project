@@ -11,6 +11,7 @@
     --colorrojo:#ff0000;
     --colorazul:#0000FF;
     --colorvino:#960018;
+    font-size: 20px;
     font-family: skygraze;
 }
 
@@ -22,17 +23,20 @@
 nav .details1 .category1{
     color: var(--colorrojo);
     font-family: skygraze;
+    font-size: 2.5em;
     
 }
 
 nav .details2 .category2{
     color:var(--colorazul);
     font-family: skygraze;
+    font-size: 1.5em;
     
 }
 
 nav .details2 a{
     color: var(--colorvino);
     font-family:  'Cabin', sans-serif;
+    font-size: 1rem;
 
 }
