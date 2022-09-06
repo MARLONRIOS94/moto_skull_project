@@ -6,12 +6,11 @@
 }
 
 
-
 :root {
     --colorrojo:#ff0000;
     --colorazul:#0000FF;
     --colorvino:#960018;
-    font-size: 20px;
+    font-size: 16px;
     font-family: skygraze;
 }
 
@@ -23,20 +22,59 @@
 nav .details1 .category1{
     color: var(--colorrojo);
     font-family: skygraze;
-    font-size: 2.5em;
+    font-size: 1em;
     
 }
 
 nav .details2 .category2{
     color:var(--colorazul);
     font-family: skygraze;
-    font-size: 1.5em;
+    font-size: 1em;
     
 }
 
 nav .details2 a{
     color: var(--colorvino);
     font-family:  'Cabin', sans-serif;
-    font-size: 1rem;
+    font-size: 1em;
+}
 
+/*  */
+
+/* header{
+    width: 80vm;
+} */
+
+.slider-container{
+    width: 500px;
+    display:block;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+.slider-imagen {
+    margin:0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+/* .slider-slide {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+} */
+
+.lista-botones {
+    text-align: center;  
+}
+
+.slider-item {
+    display: inline-block;
+    inline-size: 20px;
+    block-size: 20px;
+    background-color: black;
+    border-radius: 50%;
 }
